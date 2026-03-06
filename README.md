@@ -1,24 +1,40 @@
-# README
+# remote-gaming-v1
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Legacy codebase for the original **Remote Gaming** prototype.
 
-Things you may want to cover:
+This repository contains the first implementation of a multiplayer tabletop game engine built with **Ruby on Rails and Vue.js**. It supported games such as **Modern Art** and **Pandemic**, with game logic implemented primarily in Ruby service objects.
 
-* Ruby version
+The project was developed around 2020–2021 using:
 
-* System dependencies
+* Ruby on Rails (Rails 6 era)
+* Webpacker
+* Vue 2 + Vuex
+* ActionCable for realtime updates
+* PostgreSQL
 
-* Configuration
+The architecture separates **game logic (Ruby services)** from the **UI (Vue)**, allowing different games to plug into the same core framework.
 
-* Database creation
+## Status
 
-* Database initialization
+This repository is **archived and read-only**.
 
-* How to run the test suite
+Development has moved to the new implementation:
 
-* Services (job queues, cache servers, search engines, etc.)
+**https://github.com/harvj/remote-gaming**
 
-* Deployment instructions
+The new version is being rebuilt with:
 
-* ...
+* **Rails 8**
+* **Svelte**
+* a simplified frontend architecture
+* improved modular game support
+
+## Purpose
+
+This repo remains available for:
+
+* historical reference
+* gameplay logic examples
+* migration reference for the new engine
+
+It is not intended for active development.
